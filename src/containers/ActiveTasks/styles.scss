@@ -1,0 +1,28 @@
+.list-group {
+    .check-icon:hover {
+        color: green;
+    }
+
+    .trash-icon:hover {
+        color:red;
+    }
+    .trash-icon {
+        position: absolute;
+        right:0;
+        margin-top: 5px;
+    }
+    
+}
+.active-task {
+    border: none;
+    border-top: 2px solid #8D9196;
+    padding: 1rem 0;
+    color: white;
+    background-color: transparent;
+    margin-bottom: 1rem;
+}
+
+.tasks {
+    max-height: 400px;
+    overflow: auto;
+}

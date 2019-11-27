@@ -1,0 +1,28 @@
+.nav-bar {
+    // display:flex;
+    // justify-content: space-around;
+
+    a {
+        text-decoration: none;
+        color: #dc3545;
+        margin-right: 20px;
+    }
+
+    .active {
+        font-weight: bolder;
+    }
+
+}
+
+.title {
+    margin-bottom: 0;
+    color: white;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.number-of-tasks {
+    color: #61DBFB;
+    font-size: 1rem;
+    margin-bottom: 2rem;
+}
